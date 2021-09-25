@@ -73,19 +73,35 @@ def handle_message(event):
 
     elif event.message.text == "maintenance":
         print("##### in maintenance")
-        line_bot_api.reply_message(event.reply_token, TextSendMessage("空気清浄機のメンテナンスですね。"))
+        #line_bot_api.reply_message(event.reply_token, TextSendMessage("空気清浄機のメンテナンスですね。"))
+
+        filedata = open('static/json/recipe_detail_maintenance.json','r', encoding="utf-8")
+        jsondata = json.load(filedata)
+        line_bot_api.reply_message(event.reply_token, FlexSendMessage (alt_text='Share recipe of daily life',contents=jsondata))
 
     elif event.message.text == "toilet":
         print("##### in toilet")
-        line_bot_api.reply_message(event.reply_token, TextSendMessage("シートでトイレ掃除ですね。"))
+        #line_bot_api.reply_message(event.reply_token, TextSendMessage("シートでトイレ掃除ですね。"))
+
+        filedata = open('static/json/recipe_detail_toilet.json','r', encoding="utf-8")
+        jsondata = json.load(filedata)
+        line_bot_api.reply_message(event.reply_token, FlexSendMessage (alt_text='Share recipe of daily life',contents=jsondata))
 
     elif event.message.text == "passport":
         print("##### in passport")
-        line_bot_api.reply_message(event.reply_token, TextSendMessage("パスポート更新準備ですね。"))
+        #line_bot_api.reply_message(event.reply_token, TextSendMessage("パスポート更新準備ですね。"))
+
+        filedata = open('static/json/recipe_detail_passport.json','r', encoding="utf-8")
+        jsondata = json.load(filedata)
+        line_bot_api.reply_message(event.reply_token, FlexSendMessage (alt_text='Share recipe of daily life',contents=jsondata))
 
     elif event.message.text == "license":
         print("##### in license")
-        line_bot_api.reply_message(event.reply_token, TextSendMessage("免許更新の準備ですね。"))
+        #line_bot_api.reply_message(event.reply_token, TextSendMessage("免許更新の準備ですね。"))
+
+        filedata = open('static/json/recipe_detail_drivercard.json','r', encoding="utf-8")
+        jsondata = json.load(filedata)
+        line_bot_api.reply_message(event.reply_token, FlexSendMessage (alt_text='Share recipe of daily life',contents=jsondata))
 
     else:
         print("##### in else")
