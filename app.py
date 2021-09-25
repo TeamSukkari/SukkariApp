@@ -31,11 +31,11 @@ def root():
     print("### CHANNEL_SECRET=" + prconfig.CHANNEL_SECRET)
 
     # filedata = open('static\\json\\recipes.json','r', encoding="utf-8") # Windows Local.
-    filedata = open('static/json/recipes.json','r', encoding="utf-8")
-    jsondata = json.load(filedata)
+    # filedata = open('static/json/recipes.json','r', encoding="utf-8")
+    # jsondata = json.load(filedata)
     # line_bot_api.broadcast( FlexSendMessage (alt_text='Share recipe of daily life',contents=jsondata) )
 
-    return render_template('index.html' , arg1=lib.TEST, arg2="root access.")
+    return render_template('index.html' , arg1=lib.INDEX_TITLE, arg2=lib.INDEX_BODY_H1)
 
 @app.route('/postmessage', methods=['POST'])
 def postmessage():
