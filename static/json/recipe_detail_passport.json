@@ -70,7 +70,7 @@
               },
               {
                 "type": "text",
-                "text": 5,
+                "text": "5分",
                 "weight": "bold",
                 "size": "sm",
                 "color": "#888888",
@@ -100,7 +100,7 @@
               },
               {
                 "type": "text",
-                "text": 5,
+                "text": "5分",
                 "weight": "bold",
                 "size": "sm",
                 "color": "#888888",
@@ -130,7 +130,7 @@
               },
               {
                 "type": "text",
-                "text": 3,
+                "text": "3分",
                 "weight": "bold",
                 "size": "sm",
                 "color": "#888888",
@@ -160,7 +160,7 @@
               },
               {
                 "type": "text",
-                "text": 3,
+                "text": "3分",
                 "weight": "bold",
                 "size": "sm",
                 "color": "#888888",
@@ -190,7 +190,7 @@
               },
               {
                 "type": "text",
-                "text": 5,
+                "text": "5分",
                 "weight": "bold",
                 "size": "sm",
                 "color": "#888888",
@@ -207,7 +207,7 @@
       },
       {
         "type": "text",
-        "text": 21,
+        "text": "合計21分",
         "weight": "bold",
         "size": "md",
         "align": "end",
