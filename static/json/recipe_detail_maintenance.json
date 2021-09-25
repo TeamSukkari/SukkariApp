@@ -1,0 +1,243 @@
+{
+  "type": "bubble",
+  "direction": "ltr",
+  "hero": {
+    "type": "image",
+    "url": "https://goodspress.s3.ap-northeast-1.amazonaws.com/cms/wp-content/uploads/2016/04/DSC_3883.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "backgroundColor": "#FFFFFFFF",
+    "action": {
+      "type": "uri",
+      "label": "Action",
+      "uri": "https://linecorp.com"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "action": {
+      "type": "uri",
+      "label": "Action",
+      "uri": "https://linecorp.com"
+    },
+    "contents": [
+      {
+        "type": "text",
+        "text": "空気清浄機メンテナンス",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#6B6B6BFF",
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": "お部屋の空気をキレイにする空気清浄機ですが、定期的に掃除をすることで、安定して動作し、電気代にも影響が出ます。",
+        "size": "xxs",
+        "color": "#909090",
+        "wrap": true,
+        "contents": []
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "backgroundColor": "#FFFFFFFF",
+        "borderColor": "#000000FF",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://uxwing.com/wp-content/themes/uxwing/download/48-checkmark-cross/check-mark-circle-line.png",
+                "offsetTop": "xs"
+              },
+              {
+                "type": "text",
+                "text": "電源コードを抜き、乾いた布と掃除機を準備する",
+                "weight": "bold",
+                "size": "xs",
+                "flex": 4,
+                "margin": "sm",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": 2,
+                "weight": "bold",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end",
+                "gravity": "bottom",
+                "contents": []
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://uxwing.com/wp-content/themes/uxwing/download/48-checkmark-cross/check-mark-circle-line.png",
+                "offsetTop": "xs"
+              },
+              {
+                "type": "text",
+                "text": "パネルやフィルターを外してホコリを吸い取る",
+                "weight": "bold",
+                "size": "xs",
+                "flex": 4,
+                "margin": "sm",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": 5,
+                "weight": "bold",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end",
+                "gravity": "bottom",
+                "contents": []
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://uxwing.com/wp-content/themes/uxwing/download/48-checkmark-cross/check-mark-circle-line.png",
+                "offsetTop": "xs"
+              },
+              {
+                "type": "text",
+                "text": "内部のホコリをや汚れなどを拭きとる",
+                "weight": "bold",
+                "size": "xs",
+                "flex": 4,
+                "margin": "sm",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": 5,
+                "weight": "bold",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end",
+                "gravity": "bottom",
+                "contents": []
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://uxwing.com/wp-content/themes/uxwing/download/48-checkmark-cross/check-mark-circle-line.png",
+                "offsetTop": "xs"
+              },
+              {
+                "type": "text",
+                "text": "センサーと本体を拭く",
+                "weight": "bold",
+                "size": "xs",
+                "flex": 4,
+                "margin": "sm",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": 3,
+                "weight": "bold",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end",
+                "gravity": "bottom",
+                "contents": []
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://uxwing.com/wp-content/themes/uxwing/download/48-checkmark-cross/check-mark-circle-line.png",
+                "offsetTop": "xs"
+              },
+              {
+                "type": "text",
+                "text": "外した部品を戻して、動作を確認する",
+                "weight": "bold",
+                "size": "xs",
+                "flex": 4,
+                "margin": "sm",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": 3,
+                "weight": "bold",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end",
+                "gravity": "bottom",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "text",
+        "text": 18,
+        "weight": "bold",
+        "size": "md",
+        "align": "end",
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "詳細を見る",
+              "uri": "https://linecorp.com"
+            },
+            "color": "#E4BD6EFF",
+            "margin": "xxl",
+            "height": "sm",
+            "style": "primary",
+            "gravity": "top"
+          }
+        ]
+      }
+    ]
+  }
+}

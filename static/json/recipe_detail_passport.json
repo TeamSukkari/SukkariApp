@@ -1,0 +1,243 @@
+{
+  "type": "bubble",
+  "direction": "ltr",
+  "hero": {
+    "type": "image",
+    "url": "~.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "backgroundColor": "#FFFFFFFF",
+    "action": {
+      "type": "uri",
+      "label": "Action",
+      "uri": "https://linecorp.com"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "action": {
+      "type": "uri",
+      "label": "Action",
+      "uri": "https://linecorp.com"
+    },
+    "contents": [
+      {
+        "type": "text",
+        "text": "パスポート更新準備をする",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#6B6B6BFF",
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": "パスポートの更新は、有効期限が1年未満になった時から行うことができます。必ずしも更新する必要はありませんが、期限が切れてしまった場合は新規発行することになるため、有効なうちに更新手続きをしておくほうが安心です。",
+        "size": "xxs",
+        "color": "#909090",
+        "wrap": true,
+        "contents": []
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "backgroundColor": "#FFFFFFFF",
+        "borderColor": "#000000FF",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://uxwing.com/wp-content/themes/uxwing/download/48-checkmark-cross/check-mark-circle-line.png",
+                "offsetTop": "xs"
+              },
+              {
+                "type": "text",
+                "text": "種類、申請日と申請場所を決める",
+                "weight": "bold",
+                "size": "xs",
+                "flex": 4,
+                "margin": "sm",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": 5,
+                "weight": "bold",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end",
+                "gravity": "bottom",
+                "contents": []
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://uxwing.com/wp-content/themes/uxwing/download/48-checkmark-cross/check-mark-circle-line.png",
+                "offsetTop": "xs"
+              },
+              {
+                "type": "text",
+                "text": "必要書類(住民票、戸籍謄本)を手配する",
+                "weight": "bold",
+                "size": "xs",
+                "flex": 4,
+                "margin": "sm",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": 5,
+                "weight": "bold",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end",
+                "gravity": "bottom",
+                "contents": []
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://uxwing.com/wp-content/themes/uxwing/download/48-checkmark-cross/check-mark-circle-line.png",
+                "offsetTop": "xs"
+              },
+              {
+                "type": "text",
+                "text": "パスポート申請書を作成する",
+                "weight": "bold",
+                "size": "xs",
+                "flex": 4,
+                "margin": "sm",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": 3,
+                "weight": "bold",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end",
+                "gravity": "bottom",
+                "contents": []
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://uxwing.com/wp-content/themes/uxwing/download/48-checkmark-cross/check-mark-circle-line.png",
+                "offsetTop": "xs"
+              },
+              {
+                "type": "text",
+                "text": "手数料を現金で準備する",
+                "weight": "bold",
+                "size": "xs",
+                "flex": 4,
+                "margin": "sm",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": 3,
+                "weight": "bold",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end",
+                "gravity": "bottom",
+                "contents": []
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://uxwing.com/wp-content/themes/uxwing/download/48-checkmark-cross/check-mark-circle-line.png",
+                "offsetTop": "xs"
+              },
+              {
+                "type": "text",
+                "text": "パスポート用の写真を撮る予定を決める",
+                "weight": "bold",
+                "size": "xs",
+                "flex": 4,
+                "margin": "sm",
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": 5,
+                "weight": "bold",
+                "size": "sm",
+                "color": "#888888",
+                "align": "end",
+                "gravity": "bottom",
+                "contents": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "text",
+        "text": 21,
+        "weight": "bold",
+        "size": "md",
+        "align": "end",
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "詳細を見る",
+              "uri": "https://linecorp.com"
+            },
+            "color": "#E4BD6EFF",
+            "margin": "xxl",
+            "height": "sm",
+            "style": "primary",
+            "gravity": "top"
+          }
+        ]
+      }
+    ]
+  }
+}
