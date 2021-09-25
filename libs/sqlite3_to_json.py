@@ -2,7 +2,6 @@ import json
 import pandas as pd
 import sqlite3
 
-
 def db_to_json():
     """ Load database and create json files
     """
@@ -43,7 +42,7 @@ def db_to_json():
             template_simple["body"]["contents"][3]["text"] = template_simple["body"]["contents"][3]["text"].replace(r"{totalTime}", str(totalTime))
 
             # Create json filename
-            filename_json = "/recipe_simple_" + str(taskname) + ".json"
+            filename_json = "./recipe_simple_" + str(taskname) + ".json"
             with open(filename_json, "w", encoding="utf-8") as o:
                 print(json.dumps(template_simple, indent=2, ensure_ascii=False), file=o)
 
@@ -77,7 +76,6 @@ def db_to_json():
             template_detail["body"]["contents"][3]["contents"][4]["contents"][2]["text"] = template_detail["body"]["contents"][3]["contents"][4]["contents"][2]["text"].replace(r"{time5}", times[4])
 
             # totalTime
-            totalTime
             template_detail["body"]["contents"][5]["text"] = template_detail["body"]["contents"][5]["text"].replace(r"{totalTime}", str(totalTime))
 
             # Create json filename
@@ -85,6 +83,8 @@ def db_to_json():
             with open(filename_json, "w", encoding="utf-8") as o:
                 print(json.dumps(template_detail, indent=2, ensure_ascii=False), file=o)
 
+
+# db_to_json()
 
 # def get_recipe_simple(taskname):
 #     """
