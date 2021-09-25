@@ -1,0 +1,375 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "hero": {
+        "type": "image",
+        "url": "https://goodspress.s3.ap-northeast-1.amazonaws.com/cms/wp-content/uploads/2016/04/DSC_3883.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "backgroundColor": "#FFFFFFFF",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://linecorp.com"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://linecorp.com"
+        },
+        "contents": [
+          {
+            "type": "spacer"
+          },
+          {
+            "type": "text",
+            "text": "空気清浄機メンテナンス",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#6B6B6BFF",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "お部屋の空気をキレイにする空気清浄機ですが、定期的に掃除をすることで、安定して動作し、電気代にも影響が出ます。",
+            "size": "xxs",
+            "color": "#909090",
+            "wrap": true,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "合計18分",
+            "weight": "bold",
+            "size": "md",
+            "align": "end",
+            "contents": []
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "詳細を見る",
+                  "text": "maintenance"
+                },
+                "color": "#E4BD6EFF",
+                "margin": "xxl",
+                "height": "sm",
+                "style": "primary",
+                "gravity": "top"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "hero": {
+        "type": "image",
+        "url": "https://lh3.googleusercontent.com/Lte49k_T16uSndGMcB57H7ijuo6pGPlxhkmlTZORAbRV6c1UnQSa3QVX8Q3FL74fAoHNByX5onpMUTRhsIVJpYY1-DS9fcSXiPpcUvVVqV9kfcUvhf3TB5gqr3b4VwB1k-tl5VvS1iaSdBbHOAashwlMLZvP72WajxtPddBX8TNO2ocG9iOUBWPxpcWWas_zRlx5u-04FQYmKWhzF0VZJVpruzNcKev_1v30laTle_QCEAM1-qTudHKenBuk2ta__AIaPxPLzxuGhJTQYyGkJMUXJIkl2q99oD5807i0P7vDTpMvHAfP2kXAMQtKQ0fjDK2m0nZw-elYkcMHp1G21wLwU_BttPFZ5mtyn7S3I7bRraX_mghEonggSxh1B5XHR5WbacRWBhVKFrj4cKbX1u9F191JmD8KTL5jQEf3svPvWna_Z3cONmnzGP1egi82gU381BidqNpKREQVSID7mR2BDurh_recsxsGdG3Rl0h9wF5w_ZqXhnuDxFqmkYfuNfxT2qyiwBdhS58CfDdgiRnT_y9Kn3Sgs1SNqqdVYzNwIFjoLTf4KYgXrNEfeYv4EjdJL2PDwlzFAmAwSzHjlG_t4vUI4CRPIH_ApGOOxySZ8zgWLc9zwkE8PK9qVgbxOFi_c0M73d3aAwfFtUDmNWC0iqzHbyrZrAaTXVCDs5QeSGgYs4ZM7B0xP46wBW14i5orhOYk0PCWDndCpL6vk10e6A=w640-h864-no?authuser=0",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "backgroundColor": "#FFFFFFFF",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://linecorp.com"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://linecorp.com"
+        },
+        "contents": [
+          {
+            "type": "spacer"
+          },
+          {
+            "type": "text",
+            "text": "シートでトイレ掃除",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#6B6B6BFF",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "面倒なトイレ掃除を「流せるトイレシート」1枚でピカピカに掃除できる方法です。シート一枚で便器以外も一緒に掃除しましょう。",
+            "size": "xxs",
+            "color": "#909090",
+            "wrap": true,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "合計10分",
+            "weight": "bold",
+            "size": "md",
+            "align": "end",
+            "contents": []
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "詳細を見る",
+                  "text": "toilet"
+                },
+                "color": "#E4BD6EFF",
+                "margin": "xxl",
+                "height": "sm",
+                "style": "primary",
+                "gravity": "top"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "hero": {
+        "type": "image",
+        "url": "https://lh3.googleusercontent.com/5cp9qLHNY4jVdY4I20h4qtT8CtSD8hgyg4JQvMofRStCzViDcrxmAugr27cfdFPS6aiMvSxbe_ieqlBF7riqF6u7WP5RUowFcoYzuFWasg6TrNmsbXUt1lAOk-jSKZTD1NYaq9jMrt5v1H-1WZfuggIKTZpzdm25SgCt0WFE7O1QN7Jeh-GDkN5vqSzN9I-b_zOq0HA1-Lj4hr8U_xbblgJiJYEcP2Vg9fdxx1V0smbRLOVJ--cjG15-_OwotWT0Vl7jBDA8fku9oAo22K4H7zvVEMTe3gDeROX1xQNb6BQa9_b08zbYhBgDtRojqfcemGErmXdmFIN3AoibKJNA9hLYDAk5Nmee0SmdwOdG_pP-bkXxd_k8J1zJ1Wdkx-SbfOHbdBqeKrAWPPwVoSM5UNhP0P8nB4QuT7SyryuO9rpzsX8ascUBmZA50_BT8er9YUwOLR2nAehKUlw9byJNNgqjPr97p5gMr_f2NJpE0FpUD1fFDyGdNlSO2UhpkIynHVPsya-zUgzk-Lx5LYUSJTez26SQ4E04er569rakr085z7r594gIwlafKWs2u_82ifocLlBHs7UcYWqdr100V2hdHkOrNhLQnZehKKwOLE_MeS6LwyvuJrp6VD9qsoOtNOmTxHK6362Zrz4EC4dQILAyMyID9mAM5YeMIOcBlwdFXDwENyMR5BSMysICcymwZinrRu9fkAf8UkPuAnxLLc4y1Q=w640-h427-no?authuser=0",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "backgroundColor": "#FFFFFFFF",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://linecorp.com"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://linecorp.com"
+        },
+        "contents": [
+          {
+            "type": "spacer"
+          },
+          {
+            "type": "text",
+            "text": "パスポート更新準備",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#6B6B6BFF",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "パスポートは有効期限が1年未満になった時から更新できます。期限が切れてしまった場合は新規発行することになるため、有効なうちに更新手続きをしておくほうが安心です。",
+            "size": "xxs",
+            "color": "#909090",
+            "wrap": true,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "合計10分",
+            "weight": "bold",
+            "size": "md",
+            "align": "end",
+            "contents": []
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "詳細を見る",
+                  "text": "passport"
+                },
+                "color": "#E4BD6EFF",
+                "margin": "xxl",
+                "height": "sm",
+                "style": "primary",
+                "gravity": "top"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "hero": {
+        "type": "image",
+        "url": "https://lh3.googleusercontent.com/KfW0LSLer1rqe6GetANgnOYCe-EI6P7piI8afQmcwd74_b6SjgbiBzhL36BoT01KN6qyD5mStwYDRrlY9iODROlOAPx8BTTOXdWuGwOI2gjsaIltK3WAiRxTc8FHWByUEoVvQMyNp2KSgIpbPEreGSW8_LLM2P9LsYfSbSLaVGpR3o7x5yqyixhQ7CU1mWNZF5434WbanBRfV3YPTjh9EgU_mzH5qCByZwZmKVDdsti9fXy3HSyfoZAn7dB6AsQ8ut6hBiPPpahq_vclvpbDS8pZrF1kHq3BUAf4rG2L9uMjbZ2UwtBLCdoGy-ZZZglbAWtvS0fLwN6_xyRTFPFdK2LWMdZGzRqxzHdlxvEnvIS-14Qs11czXBKqLJvJC49fPlC2ADgI0eozrAcRoLQpcWiyRZOtMxhtrRvZSsxHwxIr7oNi7ALBa5cs17Pn5oMrnecspx3RNnfE5iyqKSSXPjfM8kUSBLKZ4FnmbmZaWpJnA6KQ4fgVvMV8O3Ja9uEfQI-amMXMuru1ahPTPHJn4pegxheZJ9WyIF6C3_b4Xv8jLbxqGRdm2S8MeKvApjEoRnX9_b873EQxW3Fb6d-lQQF-PpwEcE5qBXduHods2t4-8Ex5gzDb82sX1pBcqmDHaULG3vh68SgwRVQL60qzqHbWZBhBmKEITYVRQehimZu9rRFXFATvr_yEpKAlQMIRIx1fdvlZM1TTmnJs6EA0allTdw=s500-no?authuser=0",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "backgroundColor": "#FFFFFFFF",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://linecorp.com"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://linecorp.com"
+        },
+        "contents": [
+          {
+            "type": "spacer"
+          },
+          {
+            "type": "text",
+            "text": "免許更新の準備",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#6B6B6BFF",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "運転免許更新年の誕生日の概ね40日前になると、手続きの案内ハガキが届きます。免許の更新手続きは誕生日の前後1か月間の間が更新期間、忘れずに手続きしましょう。",
+            "size": "xxs",
+            "color": "#909090",
+            "wrap": true,
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "合計10分",
+            "weight": "bold",
+            "size": "md",
+            "align": "end",
+            "contents": []
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "詳細を見る",
+                  "text": "license"
+                },
+                "color": "#E4BD6EFF",
+                "margin": "xxl",
+                "height": "sm",
+                "style": "primary",
+                "gravity": "top"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Header",
+            "align": "center",
+            "contents": []
+          }
+        ]
+      },
+      "hero": {
+        "type": "image",
+        "url": "https://lh3.googleusercontent.com/M2CPfpnYB7eUZQvMVuf-iZH55yZ3NzgW2meUHaeZUZPlpO29o1nUlVeCWweyS0lw9EMXTQe3d16E1LOqce482NsIT6XJtIYg5RCE0XuWZfhLv4CZ862KW5_eMwoty5JKBDBj5kAjwxTd00XIPJhtWg8Sr2bxjC8h6mwZgVw66_Keer3OIUbV4Ua_GNKso_2vB1eQbGasM5JOu81VGZ8pSSnhM9luiN6byPI2hebcj9A9di3mc1T2rcCZH12QCZNgdSYKRxZq_wZuD4HXprC6K2NjZjbZGBenrXXAFm4HRCaROy4sb1IoTZvSXgANX04EXvTqQlqLmllNTkmJxDgphLeSbbNNRDnRtQq47yXKXH5wTH6IC8qtb9YPhBRDU7rVyzQl8d3apTPh9ideOhSvOwaUnOAU-Wf5dGWoGbS6bxQFKcRnJUD1Bb4ChxJeVOm1MHePIIW9udxeK474XI3jtzeFA9La2rABWpthDi1mGLYR-rUOBdvVW8v2m6B_bWErVxvBFjWwYjUM9fCyDdacnrdx5O3UEqQdHWNAosmn8RbI7yWcaa-x68DWmrAF_Vkp7gwCXpg7BpLaReLLX-qoGMnYVlrD6vXNWYd3qjFnZy3vGjEm06zVS9e8e2yE8tCvHuVnZlPr78SCmcgtK1b79FNGfxXA1tnwhrWC8PvQcUcJrHhz8Vi4C21RpY45wMn0_8tBOde04kTgeKRBPA0bcIZRUA=w640-h427-no?authuser=0",
+        "size": "full",
+        "aspectRatio": "1.51:1",
+        "aspectMode": "fit"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "もっと見る",
+              "uri": "https://linecorp.com"
+            }
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "spacer"
+          }
+        ]
+      }
+    }
+  ]
+}
