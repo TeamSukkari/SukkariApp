@@ -6,7 +6,7 @@
       "direction": "ltr",
       "hero": {
         "type": "image",
-        "url": "https://goodspress.s3.ap-northeast-1.amazonaws.com/cms/wp-content/uploads/2016/04/DSC_3883.jpg",
+        "url": "https://lh3.googleusercontent.com/p2qS_vPS-yPQujNjXkGZW2FQOWBZz3ZXoUqWppjenDAmW8BfB3Q5m55YHBhMmPfhDLCjYgpCLldOANPvYhG4rqvEnXK0LbifWCb1GsFjfnat5XeDXDbRCTEdOvZuVOtVRrBgx814pUfm9whqeUEVZo9BYnxFUNLAHl-0SKXttK71qIC7SEwjGSNS9dPYHwSQdvragYBxA1fKQG5t7XX5tLAYtNf4Df66iOBNm_3HOFV_IkCH_bB66T0_ORIOpZEGg3FPUI05d9zEepsFXcGYcJkqYcgtzNAjp35ITCMKzVw7OEelrzpw3tD9bbt-mq9LlNTXxpx0xNDotEUMFIq-IVB5AmTJvh4KhFhmlCnBonyX_XBuEiwEB-CluZbacIv9WRTWWpwQUztwxiRXUbFVLP3a_avAQdf76sdZx3IH04UzflHa8HKyeSSFrChjlDH1W90v7K9TyJKlYzzafVJZODE7mFILLiXBu2UR3_xBde7wgCZa49tLWj-dfIuZwKmnDYTOxqCYqm3KvRVKqhoismlyJr5_XvOpAA3nNEiBMiG8iLesCG8ou4KK4WfTp0PTgMK6YBxUyPFk5wd_BXgr1eGPklebPUurd4xX6H4LqA6t7S9VP0gx-wjB2ykqtVEoMFQqyqa0T21Es2QnqRXzjQiI5H40G1I7tLc-FNfxnCc-FT6IByA9y1QdcRL2K3nYzxeBPe7L_MQYQ9yyDcJ6zn-j6w=w1174-h881-no?authuser=0",
         "size": "full",
         "aspectRatio": "20:13",
         "aspectMode": "cover",
@@ -297,6 +297,83 @@
                   "type": "message",
                   "label": "詳細を見る",
                   "text": "license"
+                },
+                "color": "#E4BD6EFF",
+                "margin": "xxl",
+                "height": "sm",
+                "style": "primary",
+                "gravity": "top"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "hero": {
+        "type": "image",
+        "url": "https://lh3.googleusercontent.com/Bcknwlb4TNM84aFad9L1iwdBn_pli-ytstNqkizgjtmjV67IuuAlfFk6spH-fPKFXn9BUtRtAf46vME-gZyIGKcpU2Y66n37SwlB4kFAwtZ6kckIR6IHBeGjTS_qdZ_z4nS7Ix1mHGWT7gDiWMfv-mDMfErk_vUSuA61MrGTo2HAfw_aDnnhEf-smW2eAX5DHdGWNZIvwIDnVB9_fqNgGJBIZuz8NmJoiPpW9ngC94cBmBaQrKGUxDW-rrfd-wuI7K4ibH9bTsTabn-pQkVOvaFsMsdAyKOHzME781PtX_7TocqOScQw4aQ_vykvYBTEpCKLAl8IbFbdbHHeVfYR7bcuMeqTlpQqNuRRKrVl8wvsVA__l2GLGyAzV6aMN9kJTW_VW_IOOrXYJXmIav3yzzi4n2wwG3NoomfbN7nu4bRBkk-XEAGL_lsJZ-FJjs2TerYS94kZYR7Chw_HFxDKljL7Xe2KiS3nUBR28-taTiQii_DXPw-9Q-DOm1lI3gtTp5pMkIWrxvwYp9lf4Oo5smxNuJDLz9iR9He9OuespXWia5633jabC6aFRiBFUegWH8CkDwk4CIPLowaf95UW5HHn5tatMJGCSKrHn7I0jZKQYisNYZqnIZxEM2KsOIxEmnxjl7pcO-BC5mjWniGx1_QgFeAhSasBopDW6WUp8O0ZjAXzTu0jZN4nBftC0eMkqlEJbF-dteI-HBsOCdEY9qszYA=w588-h734-no?authuser=0",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "backgroundColor": "#FFFFFFFF",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://linecorp.com"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://linecorp.com"
+        },
+        "contents": [
+          {
+            "type": "text",
+            "text": "住民票の写しを郵送で請求",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#6B6B6BFF",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "住民登録をしている人の住所、氏名、生年月日、性別、住民となった日、本籍、筆頭者、世帯主との続柄、前住所地などを記載したものです。市町村役所の窓口、郵送での請求、マイナンバーカードを用いたコンビニでの請求、eKYCによる請求ができます。",
+            "size": "xxs",
+            "color": "#909090",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "合計53分",
+            "weight": "bold",
+            "size": "md",
+            "align": "end",
+            "contents": []
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "詳細を見る",
+                  "text": "maintenance"
                 },
                 "color": "#E4BD6EFF",
                 "margin": "xxl",
