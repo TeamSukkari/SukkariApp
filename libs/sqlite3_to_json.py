@@ -18,21 +18,23 @@ def db_to_json():
 
         # Load values from db
         index = index_row
+        taskname = row.taskname
         title = row.title
+        thumbnail = row.thumbnail
         description = row.description
         tags = row.tags
         totalTime = row.totalTime
         steps = [row.step1, row.step2, row.step3, row.step4, row.step5]
         times = [row.time1, row.time2, row.time3, row.time4, row.time5]
 
-        print(index, title, description, tags, totalTime, steps, times, sep="\n")
+        # print(index, taskname, title, thumbnail, description, tags, totalTime, steps, times, sep="\n")
 
         # Create recipe_simple
         with open("./recipe_simple.json", "r", encoding="utf-8") as f:
             template_simple = json.load(f)
 
             # imagepath
-            # template_simple["hero"]["url"] = imagepath
+            template_simple["hero"]["url"] = thumbnail
 
             # title
             template_simple["body"]["contents"][1]["text"] = title
@@ -44,7 +46,7 @@ def db_to_json():
             template_simple["body"]["contents"][3]["text"] = totalTime
 
             # Create json filename
-            filename_json = "./recipe_simple_" + str(index) + ".json"
+            filename_json = "./recipe_simple_" + str(taskname) + ".json"
             with open(filename_json, "w", encoding="utf-8") as o:
                 print(json.dumps(template_simple, indent=2, ensure_ascii=False), file=o)
 
@@ -53,7 +55,7 @@ def db_to_json():
             template_detail = json.load(f)
 
             # imagepath
-            # template_detail["hero"]["url"] = imagepath
+            template_detail["hero"]["url"] = thumbnail
 
             # title
             template_detail["body"]["contents"][0]["text"] = title
@@ -79,7 +81,7 @@ def db_to_json():
             template_detail["body"]["contents"][5]["text"] = totalTime
 
             # Create json filename
-            filename_json = "./recipe_detail_" + str(index) + ".json"
+            filename_json = "./recipe_detail_" + str(taskname) + ".json"
             with open(filename_json, "w", encoding="utf-8") as o:
                 print(json.dumps(template_detail, indent=2, ensure_ascii=False), file=o)
 

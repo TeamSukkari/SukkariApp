@@ -6,7 +6,7 @@ def init_db():
 
     Rertuns:
         bool: True if succeed to create db
-        """
+    """
 
     ret = None
 

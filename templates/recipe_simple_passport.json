@@ -1,0 +1,81 @@
+{
+  "type": "bubble",
+  "direction": "ltr",
+  "hero": {
+    "type": "image",
+    "url": "~.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "backgroundColor": "#FFFFFFFF",
+    "action": {
+      "type": "uri",
+      "label": "Action",
+      "uri": "https://linecorp.com"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "action": {
+      "type": "uri",
+      "label": "Action",
+      "uri": "https://linecorp.com"
+    },
+    "contents": [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "text": "パスポート更新準備をする",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#6B6B6BFF",
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": "パスポートの更新は、有効期限が1年未満になった時から行うことができます。必ずしも更新する必要はありませんが、期限が切れてしまった場合は新規発行することになるため、有効なうちに更新手続きをしておくほうが安心です。",
+        "size": "xxs",
+        "color": "#909090",
+        "wrap": true,
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": 21,
+        "weight": "bold",
+        "size": "md",
+        "align": "end",
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "詳細を見る",
+              "text": "maintenance"
+            },
+            "color": "#E4BD6EFF",
+            "margin": "xxl",
+            "height": "sm",
+            "style": "primary",
+            "gravity": "top"
+          }
+        ]
+      }
+    ]
+  }
+}
