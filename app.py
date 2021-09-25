@@ -25,7 +25,7 @@ handler = WebhookHandler(prconfig.CHANNEL_SECRET)
 
 @app.route('/')
 def root():
-    filedata = open('static\\json\\recipes.json','r', encoding="utf-8")
+    filedata = open('static/json/recipes.json','r', encoding="utf-8")
     jsondata = json.load(filedata)
     line_bot_api.broadcast( FlexSendMessage (alt_text='Share recipe of daily life',contents=jsondata) )
 
