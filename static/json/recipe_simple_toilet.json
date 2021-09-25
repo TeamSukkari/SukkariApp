@@ -45,7 +45,7 @@
       },
       {
         "type": "text",
-        "text": 10,
+        "text": "合計10分",
         "weight": "bold",
         "size": "md",
         "align": "end",

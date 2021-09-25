@@ -39,7 +39,7 @@ def db_to_json():
             template_simple["body"]["contents"][2]["text"] = template_simple["body"]["contents"][2]["text"].replace(r"{description}", str(description))
 
             # totalTime
-            template_simple["body"]["contents"][3]["text"] = template_simple["body"]["contents"][3]["text"].replace(r"{totalTime}", str(totalTime))
+            template_simple["body"]["contents"][3]["text"] = template_simple["body"]["contents"][3]["text"].replace(r"{totalTime}", "\""+str(totalTime)+"\"")
 
             # Create json filename
             filename_json = "./recipe_simple_" + str(taskname) + ".json"
@@ -60,23 +60,23 @@ def db_to_json():
             template_detail["body"]["contents"][1]["text"] = template_detail["body"]["contents"][1]["text"].replace(r"{description}", str(description))
 
             # steps and times
-            template_detail["body"]["contents"][3]["contents"][0]["contents"][1]["text"] = template_detail["body"]["contents"][3]["contents"][0]["contents"][1]["text"].replace(r"{step1}", steps[0])
-            template_detail["body"]["contents"][3]["contents"][0]["contents"][2]["text"] = template_detail["body"]["contents"][3]["contents"][0]["contents"][2]["text"].replace(r"{time1}", times[0])
+            template_detail["body"]["contents"][3]["contents"][0]["contents"][1]["text"] = template_detail["body"]["contents"][3]["contents"][0]["contents"][1]["text"].replace(r"{step1}", "\""+steps[0]+"\"")
+            template_detail["body"]["contents"][3]["contents"][0]["contents"][2]["text"] = template_detail["body"]["contents"][3]["contents"][0]["contents"][2]["text"].replace(r"{time1}", "\""+times[0]+"\"")
 
-            template_detail["body"]["contents"][3]["contents"][1]["contents"][1]["text"] = template_detail["body"]["contents"][3]["contents"][1]["contents"][1]["text"].replace(r"{step2}", steps[1])
-            template_detail["body"]["contents"][3]["contents"][1]["contents"][2]["text"] = template_detail["body"]["contents"][3]["contents"][1]["contents"][2]["text"].replace(r"{time2}", times[1])
+            template_detail["body"]["contents"][3]["contents"][1]["contents"][1]["text"] = template_detail["body"]["contents"][3]["contents"][1]["contents"][1]["text"].replace(r"{step2}", "\""+steps[1]+"\"")
+            template_detail["body"]["contents"][3]["contents"][1]["contents"][2]["text"] = template_detail["body"]["contents"][3]["contents"][1]["contents"][2]["text"].replace(r"{time2}", "\""+times[1]+"\"")
 
-            template_detail["body"]["contents"][3]["contents"][2]["contents"][1]["text"] = template_detail["body"]["contents"][3]["contents"][2]["contents"][1]["text"].replace(r"{step3}", steps[2])
-            template_detail["body"]["contents"][3]["contents"][2]["contents"][2]["text"] = template_detail["body"]["contents"][3]["contents"][2]["contents"][2]["text"].replace(r"{time3}", times[2])
+            template_detail["body"]["contents"][3]["contents"][2]["contents"][1]["text"] = template_detail["body"]["contents"][3]["contents"][2]["contents"][1]["text"].replace(r"{step3}", "\""+steps[2]+"\"")
+            template_detail["body"]["contents"][3]["contents"][2]["contents"][2]["text"] = template_detail["body"]["contents"][3]["contents"][2]["contents"][2]["text"].replace(r"{time3}", "\""+times[2]+"\"")
 
-            template_detail["body"]["contents"][3]["contents"][3]["contents"][1]["text"] = template_detail["body"]["contents"][3]["contents"][3]["contents"][1]["text"].replace(r"{step4}", steps[3])
-            template_detail["body"]["contents"][3]["contents"][3]["contents"][2]["text"] = template_detail["body"]["contents"][3]["contents"][3]["contents"][2]["text"].replace(r"{time4}", times[3])
+            template_detail["body"]["contents"][3]["contents"][3]["contents"][1]["text"] = template_detail["body"]["contents"][3]["contents"][3]["contents"][1]["text"].replace(r"{step4}", "\""+steps[3]+"\"")
+            template_detail["body"]["contents"][3]["contents"][3]["contents"][2]["text"] = template_detail["body"]["contents"][3]["contents"][3]["contents"][2]["text"].replace(r"{time4}", "\""+times[3]+"\"")
 
-            template_detail["body"]["contents"][3]["contents"][4]["contents"][1]["text"] = template_detail["body"]["contents"][3]["contents"][4]["contents"][1]["text"].replace(r"{step5}", steps[4])
-            template_detail["body"]["contents"][3]["contents"][4]["contents"][2]["text"] = template_detail["body"]["contents"][3]["contents"][4]["contents"][2]["text"].replace(r"{time5}", times[4])
+            template_detail["body"]["contents"][3]["contents"][4]["contents"][1]["text"] = template_detail["body"]["contents"][3]["contents"][4]["contents"][1]["text"].replace(r"{step5}", "\""+steps[4]+"\"")
+            template_detail["body"]["contents"][3]["contents"][4]["contents"][2]["text"] = template_detail["body"]["contents"][3]["contents"][4]["contents"][2]["text"].replace(r"{time5}", "\""+times[4]+"\"")
 
             # totalTime
-            template_detail["body"]["contents"][5]["text"] = template_detail["body"]["contents"][5]["text"].replace(r"{totalTime}", str(totalTime))
+            template_detail["body"]["contents"][5]["text"] = template_detail["body"]["contents"][5]["text"].replace(r"{totalTime}", "\""+str(totalTime)+"\"")
 
             # Create json filename
             filename_json = "./recipe_detail_" + str(taskname) + ".json"
