@@ -5,7 +5,7 @@ import json
 from time import sleep
 import threading
 
-from flask import Flask, request, abort, render_template
+from flask import Flask, request, abort, render_template, make_response
 
 from linebot import (
     LineBotApi, WebhookHandler
@@ -69,6 +69,26 @@ def test():
     # line_bot_api.broadcast( FlexSendMessage (alt_text='Share recipe of daily life',contents=jsondata) )
     # line_bot_api.broadcast( TextSendMessage("test message") )
 
+    return 'OK'
+
+@app.route('/createtask')
+def createtask():
+    return render_template('create.html')
+
+
+@app.route('/createfinish')
+def createfinish():
+    resp = make_response(render_template('createfinish.html'))
+    resp.headers.set('Access-Control-Allow-Origin', '*')
+    return resp
+
+@app.route('/sharetask', methods=['POST'])
+def sharetask():
+    line_bot_api.broadcast( TextSendMessage("他のユーザーにより、タスクが作成されました") )
+
+    filedata = open('static/json/recipes.json','r', encoding="utf-8")
+    jsondata = json.load(filedata)
+    line_bot_api.broadcast( FlexSendMessage (alt_text='Share recipe of daily life',contents=jsondata) )
     return 'OK'
 
 @app.route('/postmessage', methods=['POST'])

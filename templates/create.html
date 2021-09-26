@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- <link rel="icon" href="../img/favicon.png" sizes="16x16" type="image/png"> -->
+    <title>SUKKARI レシピ編集</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form-create-recipe" id="formCreateRecipe" onSubmit="return pressCreateRecipeButton();">
+            <h2 class="form-create-recipe">あなただけのレシピを作りましょう</h2>
+
+            <label for="inputTaskname" class="sr-only">タスクの名前</label>
+            <input type="taskname" id="inputTaskname" class="form-control" placeholder="My 運転免許の更新" autofocus="">
+            <label for="inputTitle" class="sr-only">タイトル</label>
+            <input type="title" id="inputTitle" class="form-control" placeholder="運転免許の更新" autofocus="">
+            <label for="inputThumbnail" class="sr-only">サムネイル画像</label>
+            <input type="thumbnail" id="inputThumbnail" class="form-control" placeholder="https://sample.com/img.png" autofocus="">
+            <label for="inputDescription" class="sr-only">説明</label>
+            <input type="description" id="inputDescription" class="form-control" placeholder="茨城県で、運転免許を更新する場合" autofocus="">
+            <!--
+            <label for="inputTags" class="sr-only">タグ(カンマ区切りで複数設定できます)</label>
+            <input type="tags" id="inputTags" class="form-control" placeholder="" autofocus="">
+            -->
+
+            <label for="inputStep1" class="sr-only">1つめの作業</label>
+            <input type="step1" id="inputStep1" class="form-control" placeholder="更新手続きのはがきを確認" autofocus="">
+            <label for="inputTime1" class="sr-only">かかる時間</label>
+            <input type="time1" id="inputTime1" class="form-control" placeholder="1 min" autofocus="">
+            <label for="inputStep" class="sr-only">2つめの作業</label>
+            <input type="step2" id="inputStep2" class="form-control" placeholder="更新区分の確認" autofocus="">
+            <label for="inputTime1" class="sr-only">かかる時間</label>
+            <input type="time2" id="inputTime2" class="form-control" placeholder="1 min" autofocus="">
+            <label for="inputStep" class="sr-only">3つめの作業</label>
+            <input type="step3" id="inputStep3" class="form-control" placeholder="警察署への確認" autofocus="">
+            <label for="inputTime1" class="sr-only">かかる時間</label>
+            <input type="time3" id="inputTime3" class="form-control" placeholder="5 min" autofocus="">
+            <label for="inputStep" class="sr-only">4つめの作業</label>
+            <input type="step4" id="inputStep4" class="form-control" placeholder="手数料と更新はがきを保管する" autofocus="">
+            <label for="inputTime1" class="sr-only">かかる時間</label>
+            <input type="time4" id="inputTime4" class="form-control" placeholder="2 min" autofocus="">
+            <label for="inputStep" class="sr-only">5つめの作業</label>
+            <input type="step5" id="inputStep5" class="form-control" placeholder="更新日の予定をスケジュールに追加" autofocus="">
+            <label for="inputTime1" class="sr-only">かかる時間</label>
+            <input type="time5" id="inputTime5" class="form-control" placeholder="1 min" autofocus="">
+            <!-- <label for="inputTotalTime" class="sr-only">累計所要時間</label> -->
+            <!-- <input type="totalTime" id="inputTotalTime" class="form-control" placeholder="totalTime" required="" autofocus=""> -->
+
+            <!-- <p onclick="varChecker()">変数チェック！</p> -->
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">作成</button>
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        function pressCreateRecipeButton() {
+            Location.href = "https://sukkari.herokuapp.com/createfinish"
+        };
+    </script>
+    
+</body>
+
+
+</html>
