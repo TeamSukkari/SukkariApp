@@ -1,0 +1,39 @@
+{
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": []
+    },
+    "hero": {
+      "type": "image",
+      "url": "https://res.cloudinary.com/dix8ructo/image/upload/v1632614326/hackday/img/timerfull_thydpv.png",
+      "size": "full",
+      "aspectRatio": "1:1",
+      "aspectMode": "cover"
+    },
+    "body": {
+      "type": "box",
+      "layout": "horizontal",
+      "spacing": "md",
+      "contents": [
+        {
+          "type": "text",
+          "text": "選択されたタスクを実行します。",
+          "size": "lg",
+          "wrap": true,
+          "contents": []
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": []
+    },
+    "styles": {
+      "header": {
+        "separator": false
+      }
+    }
+  }

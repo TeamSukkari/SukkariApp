@@ -237,7 +237,7 @@
       "direction": "ltr",
       "hero": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dix8ructo/image/upload/v1632614420/hackday/img/residentcard_kgvxxl.jpg",
+        "url": "https://res.cloudinary.com/dix8ructo/image/upload/v1632614420/hackday/img/drivercard_ne5wro.png",
         "size": "full",
         "aspectRatio": "20:13",
         "aspectMode": "cover",
@@ -314,7 +314,7 @@
       "direction": "ltr",
       "hero": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dix8ructo/image/upload/v1632614420/hackday/img/drivercard_ne5wro.png",
+        "url": "https://res.cloudinary.com/dix8ructo/image/upload/v1632614420/hackday/img/residentcard_kgvxxl.jpg",
         "size": "full",
         "aspectRatio": "20:13",
         "aspectMode": "cover",
