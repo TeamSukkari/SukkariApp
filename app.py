@@ -2,6 +2,9 @@ from libs import lib
 from libs import prconfig
 import json
 
+from time import sleep
+import threading
+
 from flask import Flask, request, abort, render_template
 
 from linebot import (
@@ -24,18 +27,49 @@ app.config["DEBUG"] = True
 line_bot_api = LineBotApi(prconfig.CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(prconfig.CHANNEL_SECRET)
 
+def post_tasktimer(userid):
+    print("##### in post_tasktimer")
+    #line_bot_api.push_message(userid, TextSendMessage("timer test/開始"))
+
+    filedata = open('static/json/timerfull.json','r', encoding="utf-8")
+    jsondata = json.load(filedata)
+    line_bot_api.push_message(userid, FlexSendMessage (alt_text='Task Timer',contents=jsondata))
+    sleep(5)
+
+    filedata = open('static/json/timerhalf.json','r', encoding="utf-8")
+    jsondata = json.load(filedata)
+    line_bot_api.push_message(userid, FlexSendMessage (alt_text='Task Timer',contents=jsondata))
+    sleep(5)
+
+    filedata = open('static/json/timerquarter.json','r', encoding="utf-8")
+    jsondata = json.load(filedata)
+    line_bot_api.push_message(userid, FlexSendMessage (alt_text='Task Timer',contents=jsondata))
+    sleep(5)
+
+    filedata = open('static/json/timerfinish.json','r', encoding="utf-8")
+    jsondata = json.load(filedata)
+    line_bot_api.push_message(userid, FlexSendMessage (alt_text='Task Timer',contents=jsondata))
+
+    return
+
 @app.route('/')
 def root():
     print("##### root access.")
     print("### CHANNEL_ACCESS_TOKEN=" + prconfig.CHANNEL_ACCESS_TOKEN)
     print("### CHANNEL_SECRET=" + prconfig.CHANNEL_SECRET)
 
+    return render_template('index.html' , arg1=lib.INDEX_TITLE, arg2=lib.INDEX_BODY_H1)
+
+@app.route('/test')
+def test():
+    print("##### test access.")
     # filedata = open('static\\json\\recipes.json','r', encoding="utf-8") # Windows Local.
     # filedata = open('static/json/recipes.json','r', encoding="utf-8")
     # jsondata = json.load(filedata)
     # line_bot_api.broadcast( FlexSendMessage (alt_text='Share recipe of daily life',contents=jsondata) )
+    # line_bot_api.broadcast( TextSendMessage("test message") )
 
-    return render_template('index.html' , arg1=lib.INDEX_TITLE, arg2=lib.INDEX_BODY_H1)
+    return 'OK'
 
 @app.route('/postmessage', methods=['POST'])
 def postmessage():
@@ -102,6 +136,20 @@ def handle_message(event):
         filedata = open('static/json/recipe_detail_drivercard.json','r', encoding="utf-8")
         jsondata = json.load(filedata)
         line_bot_api.reply_message(event.reply_token, FlexSendMessage (alt_text='Share recipe of daily life',contents=jsondata))
+
+    elif event.message.text == "Start":
+        print("#####  in Start")
+        print("### event.source.user_id=" + event.source.user_id)
+        post_tasktimer(event.source.user_id)
+
+    elif event.message.text == "StepEnd":
+        print("#####  in StepEnd")
+        filedata = open('static/json/nextstep.json','r', encoding="utf-8")
+        jsondata = json.load(filedata)
+        line_bot_api.reply_message(event.reply_token, TextSendMessage (jsondata))
+
+    elif event.message.text == "End":
+        print("#####  in End")
 
     else:
         print("##### in else")

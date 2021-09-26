@@ -1,0 +1,48 @@
+{
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": []
+    },
+    "hero": {
+      "type": "image",
+      "url": "https://res.cloudinary.com/dix8ructo/image/upload/v1632614420/hackday/img/celebration_ddmpdq.jpg",
+      "size": "full",
+      "aspectRatio": "1:1",
+      "aspectMode": "cover"
+    },
+    "body": {
+      "type": "box",
+      "layout": "horizontal",
+      "spacing": "md",
+      "contents": [
+        {
+          "type": "text",
+          "text": "選択されたステップは終了です、お疲れさまでした！",
+          "size": "lg",
+          "wrap": true,
+          "contents": []
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "ステップの終了",
+            "text": "StepEnd"
+          }
+      }
+      ]
+    },
+    "styles": {
+      "header": {
+        "separator": false
+      }
+    }
+  }
