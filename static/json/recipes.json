@@ -39,6 +39,7 @@
             "type": "text",
             "text": "お部屋の空気をキレイにする空気清浄機ですが、定期的に掃除をすることで、安定して動作し、電気代にも影響が出ます。",
             "size": "xxs",
+            "wrap": true,
             "color": "#909090",
             "contents": []
           },
@@ -116,6 +117,7 @@
             "type": "text",
             "text": "面倒なトイレ掃除を「流せるトイレシート」1枚でピカピカに掃除できる方法です。シート一枚で便器以外も一緒に掃除しましょう。",
             "size": "xxs",
+            "wrap": true,
             "color": "#909090",
             "contents": []
           },
@@ -193,6 +195,7 @@
             "type": "text",
             "text": "パスポートは有効期限が1年未満になった時から更新できます。期限が切れてしまった場合は新規発行することになるため、有効なうちに更新手続きをしておくほうが安心です。",
             "size": "xxs",
+            "wrap": true,
             "color": "#909090",
             "contents": []
           },
@@ -220,6 +223,84 @@
                   "type": "message",
                   "label": "詳細を見る",
                   "text": "passport"
+                },
+                "color": "#E4BD6EFF",
+                "margin": "xxl",
+                "height": "sm",
+                "style": "primary",
+                "gravity": "top"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "direction": "ltr",
+      "hero": {
+        "type": "image",
+        "url": "https://res.cloudinary.com/dix8ructo/image/upload/v1632620798/hackday/img/presentation_sss3rp.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "backgroundColor": "#FFFFFFFF",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://linecorp.com"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "action": {
+          "type": "uri",
+          "label": "Action",
+          "uri": "https://linecorp.com"
+        },
+        "contents": [
+          {
+            "type": "text",
+            "text": "プレゼン練習チェックリスト",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#6B6B6BFF",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "開発中にプレゼンのチェックが必要です。当日スムーズに発表するためにも事前にオンラインのプレゼン環境を確認しておきましょう。",
+            "size": "xxs",
+            "wrap": true,
+            "color": "#909090",
+            "contents": []
+          },
+          {
+            "type": "text",
+            "text": "合計10分",
+            "weight": "bold",
+            "size": "md",
+            "align": "end",
+            "contents": []
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "詳細を見る",
+                  "text": "presentation"
                 },
                 "color": "#E4BD6EFF",
                 "margin": "xxl",
@@ -270,6 +351,7 @@
             "type": "text",
             "text": "運転免許更新年の誕生日の概ね40日前になると、手続きの案内ハガキが届きます。免許の更新手続きは誕生日の前後1か月間の間が更新期間、忘れずに手続きしましょう。",
             "size": "xxs",
+            "wrap": true,
             "color": "#909090",
             "contents": []
           },
@@ -347,6 +429,7 @@
             "type": "text",
             "text": "住民登録をしている人の住所、氏名、生年月日、性別、住民となった日、本籍、筆頭者、世帯主との続柄、前住所地などを記載したものです。市町村役所の窓口、郵送での請求、マイナンバーカードを用いたコンビニでの請求、eKYCによる請求ができます。",
             "size": "xxs",
+            "wrap": true,
             "color": "#909090",
             "contents": []
           },

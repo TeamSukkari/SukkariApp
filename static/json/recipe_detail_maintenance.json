@@ -3,7 +3,7 @@
   "direction": "ltr",
   "hero": {
     "type": "image",
-    "url": "https://goodspress.s3.ap-northeast-1.amazonaws.com/cms/wp-content/uploads/2016/04/DSC_3883.jpg",
+    "url": "https://res.cloudinary.com/dix8ructo/image/upload/v1632614422/hackday/img/maintenance_z6bsil.jpg",
     "size": "full",
     "aspectRatio": "20:13",
     "aspectMode": "cover",
