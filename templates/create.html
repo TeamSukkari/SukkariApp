@@ -83,7 +83,9 @@
             var time5Value = parseInt(document.forms.formCreateRecipe.inputTime5.value);
             var totalTimeValue = time1Value + time2Value + time3Value + time4Value + time5Value;
 
-            if (tasknameValue != "" && titleValue != "" && thumbnailValue != "" && descriptionValue != "" && tagsValue != "") {
+            if (tasknameValue != "" && titleValue != "" && thumbnailValue != "" && descriptionValue != "" && tagsValue != "" &&
+                step1Value != "" && time1Value != null && step2Value != "" && time2Value != null && step3Value != "" && time3Value != null &&
+                step4Value != "" && time4Value != null && step5Value != "" && time5Value != null) {
                 console.log("pressCreateRecipeButton() in if");
                 location.href = "./index.html";
                 return false;
