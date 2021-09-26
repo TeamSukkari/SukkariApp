@@ -39,6 +39,7 @@
         "type": "text",
         "text": "面倒なトイレ掃除を「流せるトイレシート」1枚でピカピカに掃除できる方法です。",
         "size": "xxs",
+        "wrap": true,
         "color": "#909090",
         "wrap": true,
         "contents": []
