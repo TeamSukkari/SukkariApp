@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- <link rel="icon" href="../img/favicon.png" sizes="16x16" type="image/png"> -->
+    <title>SUKKARI レシピ編集</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="form-create-recipe" id="formCreateRecipe" onSubmit="return pressCreateRecipeButton();">
+            <h2 class="form-create-recipe">あなただけのレシピを作りましょう</h2>
+
+            <label for="inputTaskname" class="sr-only">タスクの名前</label>
+            <input type="taskname" id="inputTaskname" class="form-control" placeholder="taskname" required=""
+                autofocus="">
+            <label for="inputTitle" class="sr-only">タイトル</label>
+            <input type="title" id="inputTitle" class="form-control" placeholder="title" required="" autofocus="">
+            <label for="inputThumbnail" class="sr-only">サムネイル画像</label>
+            <input type="thumbnail" id="inputThumbnail" class="form-control" placeholder="thumbnail" required=""
+                autofocus="">
+            <label for="inputDescription" class="sr-only">説明</label>
+            <input type="description" id="inputDescription" class="form-control" placeholder="description" required=""
+                autofocus="">
+            <label for="inputTags" class="sr-only">タグ(カンマ区切りで複数設定できます)</label>
+            <input type="tags" id="inputTags" class="form-control" placeholder="tags" required="" autofocus="">
+
+            <label for="inputStep1" class="sr-only">1つめの作業</label>
+            <input type="step1" id="inputStep1" class="form-control" placeholder="step1" required="" autofocus="">
+            <label for="inputTime1" class="sr-only">かかる時間</label>
+            <input type="time1" id="inputTime1" class="form-control" placeholder="time1" required="" autofocus="">
+            <label for="inputStep" class="sr-only">2つめの作業</label>
+            <input type="step2" id="inputStep2" class="form-control" placeholder="step2" required="" autofocus="">
+            <label for="inputTime1" class="sr-only">かかる時間</label>
+            <input type="time2" id="inputTime2" class="form-control" placeholder="time2" required="" autofocus="">
+            <label for="inputStep" class="sr-only">3つめの作業</label>
+            <input type="step3" id="inputStep3" class="form-control" placeholder="step3" required="" autofocus="">
+            <label for="inputTime1" class="sr-only">かかる時間</label>
+            <input type="time3" id="inputTime3" class="form-control" placeholder="time3" required="" autofocus="">
+            <label for="inputStep" class="sr-only">4つめの作業</label>
+            <input type="step4" id="inputStep4" class="form-control" placeholder="step4" required="" autofocus="">
+            <label for="inputTime1" class="sr-only">かかる時間</label>
+            <input type="time4" id="inputTime4" class="form-control" placeholder="time4" required="" autofocus="">
+            <label for="inputStep" class="sr-only">5つめの作業</label>
+            <input type="step5" id="inputStep5" class="form-control" placeholder="step5" required="" autofocus="">
+            <label for="inputTime1" class="sr-only">かかる時間</label>
+            <input type="time5" id="inputTime5" class="form-control" placeholder="time5" required="" autofocus="">
+            <!-- <label for="inputTotalTime" class="sr-only">累計所要時間</label> -->
+            <!-- <input type="totalTime" id="inputTotalTime" class="form-control" placeholder="totalTime" required="" autofocus=""> -->
+
+            <!-- <p onclick="varChecker()">変数チェック！</p> -->
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">作成</button>
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        function pressCreateRecipeButton() {
+
+            var tasknameValue = document.forms.formCreateRecipe.inputTaskname.value;
+            var titleValue = document.forms.formCreateRecipe.inputTitle.value;
+            var thumbnailValue = document.forms.formCreateRecipe.inputThumbnail.value;
+            var descriptionValue = document.forms.formCreateRecipe.inputDescription.value;
+            var tagsValue = document.forms.formCreateRecipe.inputTags.value;
+
+            var step1Value = document.forms.formCreateRecipe.inputStep1.value;
+            var time1Value = parseInt(document.forms.formCreateRecipe.inputTime1.value);
+            var step2Value = document.forms.formCreateRecipe.inputStep2.value;
+            var time2Value = parseInt(document.forms.formCreateRecipe.inputTime2.value);
+            var step3Value = document.forms.formCreateRecipe.inputStep3.value;
+            var time3Value = parseInt(document.forms.formCreateRecipe.inputTime3.value);
+            var step4Value = document.forms.formCreateRecipe.inputStep4.value;
+            var time4Value = parseInt(document.forms.formCreateRecipe.inputTime4.value);
+            var step5Value = document.forms.formCreateRecipe.inputStep5.value;
+            var time5Value = parseInt(document.forms.formCreateRecipe.inputTime5.value);
+            var totalTimeValue = time1Value + time2Value + time3Value + time4Value + time5Value;
+
+            if (tasknameValue != "" && titleValue != "" && thumbnailValue != "" && descriptionValue != "" && tagsValue != "") {
+                console.log("pressCreateRecipeButton() in if");
+                location.href = "./index.html";
+                return false;
+            } else {
+            	//No Action.
+            }
+        };
+    </script>
+
+    <script type="text/javascript">
+        function varChecker() {
+
+            var tasknameValue = document.forms.formCreateRecipe.inputTaskname.value;
+            var titleValue = document.forms.formCreateRecipe.inputTitle.value;
+            var thumbnailValue = document.forms.formCreateRecipe.inputThumbnail.value;
+            var descriptionValue = document.forms.formCreateRecipe.inputDescription.value;
+            var tagsValue = document.forms.formCreateRecipe.inputTags.value;
+
+            var step1Value = document.forms.formCreateRecipe.inputStep1.value;
+            var time1Value = parseInt(document.forms.formCreateRecipe.inputTime1.value);
+            var step2Value = document.forms.formCreateRecipe.inputStep2.value;
+            var time2Value = parseInt(document.forms.formCreateRecipe.inputTime2.value);
+            var step3Value = document.forms.formCreateRecipe.inputStep3.value;
+            var time3Value = parseInt(document.forms.formCreateRecipe.inputTime3.value);
+            var step4Value = document.forms.formCreateRecipe.inputStep4.value;
+            var time4Value = parseInt(document.forms.formCreateRecipe.inputTime4.value);
+            var step5Value = document.forms.formCreateRecipe.inputStep5.value;
+            var time5Value = parseInt(document.forms.formCreateRecipe.inputTime5.value);
+            var totalTimeValue = time1Value + time2Value + time3Value + time4Value + time5Value;
+
+            console.log(tasknameValue, titleValue, thumbnailValue)
+            console.log(totalTimeValue)
+
+        };
+    </script>
+
+</body>
+
+
+</html>
